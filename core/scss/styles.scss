@@ -16,7 +16,7 @@
  */
 
 // Bar content.
-$bar-content-bg: #f70 !default;
+$bar-content-bg: #002FFF !default;
 $bar-content-border: transparent !default;
 $bar-content-text: #fff !default;
 
@@ -286,3 +286,21 @@ img.mm-media-adapt-width {
     /* show the checkmark icon when its checked */
     visibility: visible;
   }
+  
+  .bar-side-menu {
+  background-color: blue;
+}
+
+.bar-content {
+  background-color: blue;
+}
+
+.button.button-positive {
+  border-color: blue;
+  background-color: blue;
+   color: #fff;
+} 
+
+.item-divider {
+  background-color: #fafafa;
+}
